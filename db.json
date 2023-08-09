@@ -3,10 +3,10 @@
     {
       "id": 1,
       "image": "assets/images/book1.jpeg",
-      "name": "Book 1",
+      "name": "Libro 1",
       "editorial": "Editorial A",
       "gender": "Fiction",
-      "author": "Author X"
+      "author": "J.K. Rowling"
     },
     {
       "id": 2,

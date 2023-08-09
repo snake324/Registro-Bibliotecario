@@ -18,7 +18,7 @@ export class BookFormComponent implements OnInit {
     gender: '',
     author: ''
   };
-  
+
   isEditing = false;
 
   constructor(
@@ -36,6 +36,8 @@ export class BookFormComponent implements OnInit {
           this.book = book;
           this.initialBook = { ...book };
         });
+      } else {
+        this.isEditing = false;
       }
     });
   }
@@ -53,10 +55,11 @@ export class BookFormComponent implements OnInit {
   }
 
   isDirty(): boolean {
-    return this.book.name !== this.initialBook.name ||
-    this.book.author !== this.initialBook.author ||
-    this.book.editorial !== this.initialBook.editorial ||
-    this.book.gender !== this.initialBook.gender ||
-    this.book.image !== this.initialBook.image;
-  }
+    return (
+      this.isEditing && (
+        JSON.stringify(this.initialBook) !== JSON.stringify(this.book)
+      )
+    );
+  }  
 }
+
