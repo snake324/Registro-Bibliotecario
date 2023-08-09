@@ -1,0 +1,27 @@
+<div class="container mt-4">
+    <h2>{{ isEditing ? 'Editar' : 'Crear' }} Libro</h2>
+    <form (ngSubmit)="saveBook()">
+      <div class="form-group">
+        <label>Imagen</label>
+        <input type="text" class="form-control" [(ngModel)]="book.image" name="image">
+      </div>
+      <div class="form-group">
+        <label>Nombre</label>
+        <input type="text" class="form-control" [(ngModel)]="book.name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label>Autor</label>
+        <input type="text" class="form-control" [(ngModel)]="book.author" name="author" required>
+      </div>
+      <div class="form-group">
+        <label>Editorial</label>
+        <input type="text" class="form-control" [(ngModel)]="book.editorial" name="editorial">
+      </div>
+      <div class="form-group">
+        <label>Género</label>
+        <input type="text" class="form-control" [(ngModel)]="book.gender" name="gender">
+      </div>
+      <button type="submit" class="btn btn-primary">Guardar</button>
+      <a routerLink="/" class="btn btn-secondary ml-2">Cancelar</a>
+    </form>
+</div>  

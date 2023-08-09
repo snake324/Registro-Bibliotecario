@@ -2,7 +2,7 @@
   "books": [
     {
       "id": 1,
-      "image": "book1.jpg",
+      "image": "assets/images/book1.jpeg",
       "name": "Book 1",
       "editorial": "Editorial A",
       "gender": "Fiction",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image": "book2.jpg",
+      "image": "assets/images/book2.jpeg",
       "name": "Book 2",
       "editorial": "Editorial B",
       "gender": "Non-Fiction",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "image": "book3.jpg",
+      "image": "assets/images/book3.jpeg",
       "name": "Book 3",
       "editorial": "Editorial A",
       "gender": "Fiction",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "image": "book4.jpg",
+      "image": "assets/images/book4.jpeg",
       "name": "Book 4",
       "editorial": "Editorial C",
       "gender": "Science Fiction",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "image": "book5.jpg",
+      "image": "assets/images/book5.jpeg",
       "name": "Book 5",
       "editorial": "Editorial B",
       "gender": "Mystery",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "image": "book6.jpg",
+      "image": "assets/images/book6.jpeg",
       "name": "Book 6",
       "editorial": "Editorial D",
       "gender": "Fantasy",
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "image": "book7.jpg",
+      "image": "assets/images/book7.jpeg",
       "name": "Book 7",
       "editorial": "Editorial A",
       "gender": "Romance",
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "image": "book8.jpg",
+      "image": "assets/images/book8.jpeg",
       "name": "Book 8",
       "editorial": "Editorial C",
       "gender": "Historical Fiction",
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "image": "book9.jpg",
+      "image": "assets/images/book9.jpeg",
       "name": "Book 9",
       "editorial": "Editorial B",
       "gender": "Thriller",
@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "image": "book10.jpg",
+      "image": "assets/images/book10.jpeg",
       "name": "Book 10",
       "editorial": "Editorial D",
       "gender": "Horror",

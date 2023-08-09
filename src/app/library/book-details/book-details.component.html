@@ -1,0 +1,8 @@
+<div *ngIf="book">
+    <h2 class="card-title">{{ book.name }}</h2>
+    <img [src]="book.image" alt="Book Cover">
+    <p class="card-text">Autor: {{ book.author }}</p>
+    <p class="card-text">Editorial: {{ book.editorial }}</p>
+    <p class="card-text">Género: {{ book.gender }}</p>
+</div>
+  
