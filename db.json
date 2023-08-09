@@ -1,0 +1,84 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "image": "book1.jpg",
+      "name": "Book 1",
+      "editorial": "Editorial A",
+      "gender": "Fiction",
+      "author": "Author X"
+    },
+    {
+      "id": 2,
+      "image": "book2.jpg",
+      "name": "Book 2",
+      "editorial": "Editorial B",
+      "gender": "Non-Fiction",
+      "author": "Author Y"
+    },
+    {
+      "id": 3,
+      "image": "book3.jpg",
+      "name": "Book 3",
+      "editorial": "Editorial A",
+      "gender": "Fiction",
+      "author": "Author Z"
+    },
+    {
+      "id": 4,
+      "image": "book4.jpg",
+      "name": "Book 4",
+      "editorial": "Editorial C",
+      "gender": "Science Fiction",
+      "author": "Author W"
+    },
+    {
+      "id": 5,
+      "image": "book5.jpg",
+      "name": "Book 5",
+      "editorial": "Editorial B",
+      "gender": "Mystery",
+      "author": "Author V"
+    },
+    {
+      "id": 6,
+      "image": "book6.jpg",
+      "name": "Book 6",
+      "editorial": "Editorial D",
+      "gender": "Fantasy",
+      "author": "Author U"
+    },
+    {
+      "id": 7,
+      "image": "book7.jpg",
+      "name": "Book 7",
+      "editorial": "Editorial A",
+      "gender": "Romance",
+      "author": "Author T"
+    },
+    {
+      "id": 8,
+      "image": "book8.jpg",
+      "name": "Book 8",
+      "editorial": "Editorial C",
+      "gender": "Historical Fiction",
+      "author": "Author S"
+    },
+    {
+      "id": 9,
+      "image": "book9.jpg",
+      "name": "Book 9",
+      "editorial": "Editorial B",
+      "gender": "Thriller",
+      "author": "Author R"
+    },
+    {
+      "id": 10,
+      "image": "book10.jpg",
+      "name": "Book 10",
+      "editorial": "Editorial D",
+      "gender": "Horror",
+      "author": "Author Q"
+    }
+  ]
+}
